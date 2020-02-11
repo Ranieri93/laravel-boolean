@@ -1,0 +1,38 @@
+
+main {
+    padding: 90px 0 350px;
+}
+
+#top-jumbo {
+
+    .jumbotron {
+        background-color: white;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
+
+#blue-container {
+    background-color: $primaryColor;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    .blue-box {
+        flex-basis: 280px;
+        max-width: 280px;
+        text-align: center;
+        padding: 5px;
+    }
+    h3 {
+        font-size: 49.5px;
+        font-weight: 400;
+    }
+    p {
+        font-size: 19px;
+        font-weight: 300;
+    }
+
+
+}

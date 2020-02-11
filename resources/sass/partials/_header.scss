@@ -1,0 +1,23 @@
+nav {
+    height: 90px;
+    background-color: white;
+    overflow: hidden;
+    padding: 10px 0;
+
+    img {
+        max-height: 100%;
+    }
+
+    a {
+        margin: 0 20px;
+
+        &.active {
+            border-bottom: 2px solid #61ce4e;
+        }
+    }
+}
+
+#btn-green {
+    background-color: #61ce4e ;
+    margin-left: 20px;
+}

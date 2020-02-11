@@ -1,0 +1,48 @@
+footer {
+    background-color: $primaryColor;
+    padding: 70px 0 30px;
+    height: 350px;
+
+    img {
+        width: 200px;
+        height: 65px;
+    }
+
+    .footer-spec {
+        color: white;
+    }
+
+}
+
+#top-right-footer {
+    a {
+        color: white !important;
+        font-size: 20px;
+        text-decoration: none;
+
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+#bottom-footer {
+    border-top: 1px solid white;
+    p {
+        color: white;
+        font-size: 14px;
+    }
+
+    li {
+        padding: 10px 20px 0 20px;
+        margin-top: 20px;
+        i {
+            color: white;
+            font-size: 30px;
+
+        }
+    }
+
+}
+
+
