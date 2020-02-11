@@ -10892,6 +10892,10 @@ body {
   max-width: 1140px;
 }
 
+.section-policy {
+  margin: 40px 0;
+}
+
 nav {
   height: 90px;
   background-color: white;
@@ -10916,8 +10920,12 @@ nav a.active {
   margin-left: 20px;
 }
 
+#privacyPolicy {
+  padding-top: 90px;
+}
+
 main {
-  padding: 90px 0 350px;
+  padding-top: 90px;
 }
 
 #top-jumbo .jumbotron {

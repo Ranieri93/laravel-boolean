@@ -1,4 +1,4 @@
-<footer class="fixed-bottom">
+<footer>
     <div class="container">
         <div id="top-footer" class="d-flex justify-content-between">
             <div id="top-left-footer" class="d-flex flex-column">
