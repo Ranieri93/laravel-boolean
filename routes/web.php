@@ -16,7 +16,11 @@ Route::get('/', function () {
 })->name('homepage');
 
 Route::get('/faq', function (){
-    return view('faq');
+    $data = [
+        'lista_faq_sx' => config('dati.faqs_sx'),
+        'lista_faq_dx' => config('dati.faqs_dx'),
+    ];
+    return view('faq', $data);
 })->name('faq_page');
 
 Route::get('/privacy-policy', function (){

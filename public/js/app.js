@@ -29895,7 +29895,24 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
-$(document).ready(function () {});
+$(document).ready(function () {
+  $('.faq-question i').click(function () {
+    var currentText = $(this).parent().siblings('p');
+
+    if (currentText.hasClass('active')) {
+      currentText.removeClass('active');
+    } else {
+      $('.answer').each(function () {
+        var eachCurrent = $(this);
+
+        if (eachCurrent != currentText) {
+          eachCurrent.removeClass('active');
+        }
+      });
+      $(currentText).toggleClass('active');
+    }
+  });
+});
 
 /***/ }),
 

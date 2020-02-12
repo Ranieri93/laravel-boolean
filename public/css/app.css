@@ -10896,6 +10896,14 @@ body {
   margin: 40px 0;
 }
 
+.answer {
+  display: none;
+}
+
+.answer.active {
+  display: block;
+}
+
 nav {
   height: 90px;
   background-color: white;
@@ -10922,6 +10930,46 @@ nav a.active {
 
 #privacyPolicy {
   padding-top: 90px;
+}
+
+.header-faq {
+  padding-top: 90px;
+}
+
+i {
+  float: right;
+}
+
+#blue-section-faq,
+#grey-section-faq {
+  padding: 0 80px;
+}
+
+#blue-section-faq h2,
+#grey-section-faq h2 {
+  font-weight: 400;
+  font-size: 32px;
+  margin: 30px 0;
+}
+
+#blue-section-faq .col-6,
+#grey-section-faq .col-6 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#blue-section-faq .faq-question,
+#grey-section-faq .faq-question {
+  margin: 40px 0;
+}
+
+#grey-section-faq {
+  background-color: #e8ebf1;
+}
+
+#blue-section-faq {
+  background-color: #1b3c59;
+  color: white;
 }
 
 main {
